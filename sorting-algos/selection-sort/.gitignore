@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these directories (so Git can still check .py files inside them)
+!*/
+
+# Don't ignore Python files
+!*.py
+!.gitignore
+
